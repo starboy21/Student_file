@@ -29,8 +29,8 @@ void student :: getData() {
 void student :: displayData() {
    cout << "\nRoll No. :: " << roll << endl;
    cout << "\nName :: " << name << endl;
-   cout << "\nMarks :: " << marks1<<m2<<m3<<m4<<m5 << endl;
-  float grade=(marks1+ m2+ m3+ m4+ m5)*(100/5);
+   cout << "\nMarks :: " << "\n"<<marks1<<"\n"<<m2<<"\n"<<m3<<"\n"<<m4<<"\n"<<m5<< endl;
+  float grade=(marks1+ m2+ m3+ m4+ m5)/5;
 cout << "\ngrade :: " <<grade;
 
 
